@@ -3,6 +3,27 @@
 
 A PHP helper class. An easier and cleaner way to import JavaScript, CSS and google fonts from template files and import the resources at the end of the parent document. Convenient way to call JS functions on load under single <script> tag at the end of the document. Import google fonts simply by using the name of the font.
 
+## Content
+- [**resImport**](#resimport)
+  - [Content](#content)
+  - [Features](#features)
+  - [Language](#language)
+  - [Authors](#authors)
+  - [Usage](#usage)
+    - [⩥ Initiating](#-initiating)
+    - [⩥ Importing Example](#-importing-example)
+    - [⩥ $resImport -> Bundle( )](#-resimport---bundle-)
+      - [Example Bundle() :: Import file with root path](#example-bundle--import-file-with-root-path)
+      - [Example Bundle() :: Import file without root path](#example-bundle--import-file-without-root-path)
+      - [Example Bundle() :: Import multiple files](#example-bundle--import-multiple-files)
+      - [Example Bundle() / Dirrect :: Import file types seperately](#example-bundle--dirrect--import-file-types-seperately)
+      - [Example js() / css() :: An alternative way to import JavaScript & CSS](#example-js--css--an-alternative-way-to-import-javascript--css)
+    - [⩥ $resImport -> gfont();](#-resimport---gfont)
+      - [Example gfont() :: Import a single font](#example-gfont--import-a-single-font)
+      - [Example gfont() :: Import multiple fonts](#example-gfont--import-multiple-fonts)
+  - [Contributing](#contributing)
+  - [Support](#support)
+  - [License](#license)
 
 ## Features
 
@@ -13,8 +34,7 @@ A PHP helper class. An easier and cleaner way to import JavaScript, CSS and goog
 ③- Easy functions for CSS and JS
 
 
-## Tech Stack
-
+## Language
 
 **Server:** PHP
 
